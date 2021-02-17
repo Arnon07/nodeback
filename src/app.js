@@ -7,7 +7,7 @@ class App{
     constructor(){
         this.server = express();
 
-        mongoose.connect('mongodb+srv://devhouse:devhouse@devhouse.ihheg.mongodb.net/devhouse?retryWrites=true&w=majority', {
+        mongoose.connect('mongodb+srv://admin:devhouse@devhouse.d10z8.mongodb.net/devhouse?retryWrites=true&w=majority', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
